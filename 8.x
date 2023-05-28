@@ -29,21 +29,21 @@
 	<status>published</status>
 	<release_link>https://github.com/fiveyears/drupal10_parallax_theme/releases/tag/1.0.1</release_link>
 	<download_link>https://github.com/fiveyears/drupal10_parallax_theme/releases/download/1.0.1/drupal10_parallax_theme.zip</download_link>
-	<date>1685276521</date>
+	<date>1685292807</date>
 	<files>
 	<file>
 		<url>https://github.com/fiveyears/drupal10_parallax_theme/releases/download/1.0.1/drupal10_parallax_theme.tar.gz</url>
 		<archive_type>tar.gz</archive_type>
-		<md5>d6a65dde192c25bee9f5da99243fa5e3</md5>
-		<size>2745421</size>
-		<filedate>1685276526</filedate>
+		<md5>74d68676a1f158767c37f92793a8fb14</md5>
+		<size>2745414</size>
+		<filedate>1685292812</filedate>
 	</file>
 	<file>
 		<url>https://github.com/fiveyears/drupal10_parallax_theme/releases/download/1.0.1/drupal10_parallax_theme.zip</url>
 		<archive_type>zip</archive_type>
-		<md5>241776d0a0cb7848513df127907587ae</md5>
-		<size>2797027</size>
-		<filedate>1685276525</filedate>
+		<md5>64af2466110798e402529a5e310f451e</md5>
+		<size>2797026</size>
+		<filedate>1685292811</filedate>
 	</file></files>
 	<terms><term><name>Release type</name>
 	<value>Bug fixes</value>
