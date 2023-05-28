@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project xmlns:dc="http://purl.org/dc/elements/1.1/">
-<title>Wadokai Parallax</title>
+<title>Drupal 10 Parallax Theme</title>
 <short_name>drupal10_parallax_theme</short_name>
 <dc:creator>fiveyears</dc:creator>
 <type>project_theme</type>
