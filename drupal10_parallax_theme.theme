@@ -136,11 +136,14 @@ function drupal10_parallax_theme_get_slider_content() {
     if (!empty($fid)) {
       $file = File::load($fid[0]);
       $uri = $file->getFileUri();
-      $path = file_create_url($uri);
+      // Changed D10
+      // $path = file_create_url($uri);
+      $path = \Drupal::service('file_url_generator')->generateAbsoluteString($uri);
     }
     else {
-// \Drupal::service('extension.list.theme')->getPath('drupal10_parallax_theme')
-// drupal_get_path('theme', 'drupal10_parallax_theme')
+      // Changed D10
+      // \Drupal::service('extension.list.theme')->getPath('drupal10_parallax_theme')
+      // drupal_get_path('theme', 'drupal10_parallax_theme')
       $path = base_path() . \Drupal::service('extension.list.theme')->getPath('drupal10_parallax_theme') . theme_get_setting('slide_image_path_' . $i, 'drupal10_parallax_theme');
     }
     $slide_show_link = theme_get_setting('slide_url_' . $i, 'drupal10_parallax_theme');
@@ -281,7 +284,9 @@ function drupal10_parallax_theme_form_system_theme_settings_alter(&$form, \Drupa
     $image = theme_get_setting('slide_image_path'.$i,'drupal10_parallax_theme');
     if(!empty($image)){
       $file = File::load($image[0]);
-      $file->status = FILE_STATUS_PERMANENT;
+      // Changed D10
+      // $file->status = FILE_STATUS_PERMANENT;
+      $file->status = \Drupal\file\FileInterface::STATUS_PERMANENT;
       $file->save();
       $file_usage = \Drupal::service('file.usage');
       $file_usage_check = $file_usage->listUsage($file);
