@@ -22,6 +22,37 @@
 </terms>
 <releases>
 <release>
+	<name>1.0.3</name><version>1.0.3</version><tag>1.0.3</tag>
+	<version_major>1</version_major>
+	<version_minor>0</version_minor>
+	<version_patch>3</version_patch>
+	<status>published</status>
+	<release_link>https://github.com/fiveyears/drupal10_parallax_theme/releases/tag/1.0.3</release_link>
+	<download_link>https://github.com/fiveyears/drupal10_parallax_theme/releases/download/1.0.3/drupal10_parallax_theme.zip</download_link>
+	<date>1685447691</date>
+	<files>
+	<file>
+		<url>https://github.com/fiveyears/drupal10_parallax_theme/releases/download/1.0.3/drupal10_parallax_theme.tar.gz</url>
+		<archive_type>tar.gz</archive_type>
+		<md5>7d7b2f059e173088f5e952141305bd0d</md5>
+		<size>2745825</size>
+		<filedate>1685447696</filedate>
+	</file>
+	<file>
+		<url>https://github.com/fiveyears/drupal10_parallax_theme/releases/download/1.0.3/drupal10_parallax_theme.zip</url>
+		<archive_type>zip</archive_type>
+		<md5>fcf38af8184bdcd2b3ef45b8eedf74c0</md5>
+		<size>2797574</size>
+		<filedate>1685447694</filedate>
+	</file></files>
+	<terms><term><name>Release type</name>
+	<value>Bug fixes</value>
+	</term>
+	</terms>
+	<security covered="1">Covered by Drupal's security advisory policy</security>
+	<core_compatibility>^9 || ^10</core_compatibility>
+</release>
+<release>
 	<name>1.0.2</name><version>1.0.2</version><tag>1.0.2</tag>
 	<version_major>1</version_major>
 	<version_minor>0</version_minor>
