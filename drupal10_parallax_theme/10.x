@@ -22,6 +22,37 @@
 </terms>
 <releases>
 <release>
+	<name>1.0.5</name><version>1.0.5</version><tag>1.0.5</tag>
+	<version_major>1</version_major>
+	<version_minor>0</version_minor>
+	<version_patch>5</version_patch>
+	<status>published</status>
+	<release_link>https://github.com/fiveyears/drupal10_parallax_theme/releases/tag/1.0.5</release_link>
+	<download_link>https://github.com/fiveyears/drupal10_parallax_theme/releases/download/1.0.5/drupal10_parallax_theme.zip</download_link>
+	<date>1706288172</date>
+	<files>
+	<file>
+		<url>https://github.com/fiveyears/drupal10_parallax_theme/releases/download/1.0.5/drupal10_parallax_theme.tar.gz</url>
+		<archive_type>tar.gz</archive_type>
+		<md5>a4ae44bfbca5628a1689ed07ef1ae771</md5>
+		<size>2745439</size>
+		<filedate>1706288176</filedate>
+	</file>
+	<file>
+		<url>https://github.com/fiveyears/drupal10_parallax_theme/releases/download/1.0.5/drupal10_parallax_theme.zip</url>
+		<archive_type>zip</archive_type>
+		<md5>55288fcb1023ce90ff657ad891dcc977</md5>
+		<size>2797068</size>
+		<filedate>1706288175</filedate>
+	</file></files>
+	<terms><term><name>Release type</name>
+	<value>Bug fixes</value>
+	</term>
+	</terms>
+	<security covered="1">Covered by Drupal's security advisory policy</security>
+	<core_compatibility>^9 || ^10</core_compatibility>
+</release>
+<release>
 	<name>1.0.4</name><version>1.0.4</version><tag>1.0.4</tag>
 	<version_major>1</version_major>
 	<version_minor>0</version_minor>
@@ -94,18 +125,26 @@
 	<date>1685383053</date>
 	<files>
 	<file>
-		<url>https://github.com/fiveyears/drupal10_parallax_theme/releases/download/1.0.2/drupal10_parallax_theme.tar.gz</url>
+		<url>https://github.com/fiveyears/drupal10_parallax_theme/releases/download/1.0.2/drupal10_parallax_theme.tar.gz
+https://github.com/fiveyears/drupal10_parallax_theme/releases/download/1.0.5/drupal10_parallax_theme.tar.gz</url>
 		<archive_type>tar.gz</archive_type>
-		<md5>bbba2a87cd0f549b175c90346dba2ce2</md5>
-		<size>2745449</size>
-		<filedate>1685383058</filedate>
+		<md5>bbba2a87cd0f549b175c90346dba2ce2
+a4ae44bfbca5628a1689ed07ef1ae771</md5>
+		<size>2745449
+2745439</size>
+		<filedate>1685383058
+1706288176</filedate>
 	</file>
 	<file>
-		<url>https://github.com/fiveyears/drupal10_parallax_theme/releases/download/1.0.2/drupal10_parallax_theme.zip</url>
+		<url>https://github.com/fiveyears/drupal10_parallax_theme/releases/download/1.0.2/drupal10_parallax_theme.zip
+https://github.com/fiveyears/drupal10_parallax_theme/releases/download/1.0.5/drupal10_parallax_theme.zip</url>
 		<archive_type>zip</archive_type>
-		<md5>8af0cf32b0a93a4f66a07def7e7cf4c6</md5>
-		<size>2797057</size>
-		<filedate>1685383057</filedate>
+		<md5>8af0cf32b0a93a4f66a07def7e7cf4c6
+55288fcb1023ce90ff657ad891dcc977</md5>
+		<size>2797057
+2797068</size>
+		<filedate>1685383057
+1706288175</filedate>
 	</file></files>
 	<terms><term><name>Release type</name>
 	<value>Bug fixes</value>
