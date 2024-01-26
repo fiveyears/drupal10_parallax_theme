@@ -13,7 +13,7 @@ use Drupal\Core\Form\FormStateInterface;
 use Drupal\system\Form\ThemeSettingsForm;
 use Drupal\file\Entity\File;
 use Drupal\Core\Url;
-use Drupal\file\Plugin\Core\Entity\FileInterface;
+use Drupal\file\FileInterface;
 
 /**
  * Implements hook_preprocess_page() for block templates.
@@ -91,13 +91,13 @@ function drupal10_parallax_theme_preprocess_page(&$variables) {
 
   //To get the current url
   $current_url  = \Drupal::request()->getRequestUri();
-  $current_path = explode("/", $current_url);
+  $current_path = parse_url($current_url);
   if (isset($current_path[2])) {
-    $variables['current_path'] = $current_path[2];
+    $variables['current_path'] = $current_path['path'];
   }
   
   // Slider
-  // Asign Variable for Slider
+  // Assign Variable for Slider
   if ($variables['is_front']) {
     if (theme_get_setting('show_slideshow','drupal10_parallax_theme') == 1) {
       $variables['show_slideshow'] = 1;
@@ -136,14 +136,9 @@ function drupal10_parallax_theme_get_slider_content() {
     if (!empty($fid)) {
       $file = File::load($fid[0]);
       $uri = $file->getFileUri();
-      // Changed D10
-      // $path = file_create_url($uri);
       $path = \Drupal::service('file_url_generator')->generateAbsoluteString($uri);
     }
     else {
-      // Changed D10
-      // \Drupal::service('extension.list.theme')->getPath('drupal10_parallax_theme')
-      // drupal_get_path('theme', 'drupal10_parallax_theme')
       $path = base_path() . \Drupal::service('extension.list.theme')->getPath('drupal10_parallax_theme') . theme_get_setting('slide_image_path_' . $i, 'drupal10_parallax_theme');
     }
     $slide_show_link = theme_get_setting('slide_url_' . $i, 'drupal10_parallax_theme');
@@ -284,9 +279,7 @@ function drupal10_parallax_theme_form_system_theme_settings_alter(&$form, \Drupa
     $image = theme_get_setting('slide_image_path'.$i,'drupal10_parallax_theme');
     if(!empty($image)){
       $file = File::load($image[0]);
-      // Changed D10
-      // $file->status = FILE_STATUS_PERMANENT;
-      $file->status = \Drupal\file\FileInterface::STATUS_PERMANENT;
+      $file->setPermanent();
       $file->save();
       $file_usage = \Drupal::service('file.usage');
       $file_usage_check = $file_usage->listUsage($file);

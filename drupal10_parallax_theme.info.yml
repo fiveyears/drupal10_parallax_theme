@@ -5,7 +5,7 @@ package: core
 base theme: false
 core: 8.x
 core_version_requirement: ^8 || ^9 || ^10
-version: '1.0.4'
+version: '1.0.5'
 project: 'drupal10_parallax_theme'
 project status url: 'https://raw.githubusercontent.com/fiveyears/drupal10_parallax_theme/release-history'
 
@@ -64,4 +64,4 @@ regions:
 
   auto_hidden_block: 'Auto hidden blocks'
 # Information added by Drupal.org packaging script on 2020-11-23
-datestamp: 1685205317
+datestamp: 1706288166

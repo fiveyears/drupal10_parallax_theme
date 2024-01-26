@@ -11,7 +11,7 @@ bootstrap:
     - core/drupal.ajax
     - core/drupal
     - core/drupalSettings
-    - core/jquery.once
+    - core/once
 
 # global components
 global-components:
@@ -27,7 +27,7 @@ global-components:
     - core/drupal.ajax
     - core/drupal
     - core/drupalSettings
-    - core/jquery.once
+    - core/once
 
 # flexslider
 flexslider:
