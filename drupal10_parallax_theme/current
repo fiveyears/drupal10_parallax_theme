@@ -49,7 +49,7 @@
 	<value>Bug fixes</value>
 	</term>
 	</terms>
-	<security covered="1">Covered by Drupal's security advisory policy</security>
+	<security covered="0">Covered by Drupal's security advisory policy</security>
 	<core_compatibility>^9 || ^10</core_compatibility>
 </release>
 <release>
@@ -80,7 +80,7 @@
 	<value>Bug fixes</value>
 	</term>
 	</terms>
-	<security covered="1">Covered by Drupal's security advisory policy</security>
+	<security covered="0">Covered by Drupal's security advisory policy</security>
 	<core_compatibility>^9 || ^10</core_compatibility>
 </release>
 <release>
@@ -111,7 +111,7 @@
 	<value>Bug fixes</value>
 	</term>
 	</terms>
-	<security covered="1">Covered by Drupal's security advisory policy</security>
+	<security covered="0">Covered by Drupal's security advisory policy</security>
 	<core_compatibility>^9 || ^10</core_compatibility>
 </release>
 <release>
@@ -142,7 +142,7 @@
 	<value>Bug fixes</value>
 	</term>
 	</terms>
-	<security covered="1">Covered by Drupal's security advisory policy</security>
+	<security covered="0">Covered by Drupal's security advisory policy</security>
 	<core_compatibility>^9 || ^10</core_compatibility>
 </release>
 <release>
@@ -181,7 +181,7 @@ https://github.com/fiveyears/drupal10_parallax_theme/releases/download/1.0.5/dru
 	<value>Bug fixes</value>
 	</term>
 	</terms>
-	<security covered="1">Covered by Drupal's security advisory policy</security>
+	<security covered="0">Covered by Drupal's security advisory policy</security>
 	<core_compatibility>^9 || ^10</core_compatibility>
 </release>
 <release>
@@ -212,7 +212,7 @@ https://github.com/fiveyears/drupal10_parallax_theme/releases/download/1.0.5/dru
 	<value>Bug fixes</value>
 	</term>
 	</terms>
-	<security covered="1">Covered by Drupal's security advisory policy</security>
+	<security covered="0">Covered by Drupal's security advisory policy</security>
 	<core_compatibility>^9 || ^10</core_compatibility>
 </release>
 <release>
@@ -243,7 +243,7 @@ https://github.com/fiveyears/drupal10_parallax_theme/releases/download/1.0.5/dru
 	<value>Bug fixes</value>
 	</term>
 	</terms>
-	<security covered="1">Covered by Drupal's security advisory policy</security>
+	<security covered="0">Covered by Drupal's security advisory policy</security>
 	<core_compatibility>^9 || ^10</core_compatibility>
 </release>
 </releases>
